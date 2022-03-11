@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+}
+
+article {
+width: 1000px;
+margin: 40px auto;
+padding: 20 px 150px 60px;
+background-color: aquamarine;
+box-shadow: 0 0 16px rgba(0, 0, 0, 0.7);
+}
+
+#main {
+    border: 2 px solid aquamarine;
+}
+
+h1,h2,h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#logo {
+    float: left;
+}
+
+#slogans {
+float: right;
+font-size: .7rem;
+text-align: right;
+color: #909090;
+width: 30%;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.aligin-left {
+    float: left;
+    margin-right: 15px;
+}
+
+.aligin-right {
+    float: right;
+    margin-right: 15px;
+}
+
+.block {
+    padding: 30px;
+}
+
+#main img {
+    height: 100px;
+}
+
+.block:nth-child(odd) {
+    background-color: rgb(35, 128, 131);
+    border-bottom: 2px solid rgb(35, 128, 131);
+    border-top: 2px solid  rgb(35, 128, 131);
+}
+
+#main {
+    border-left: 2px solid  rgb(35, 128, 131);
+    border-right: 2px solid  rgb(35, 128, 131);
+}
+
+.clearfix::before, .clearfix::after,
+.block::before, .block::after {
+content: "";
+display: table;
+}
+
+.clearfix::after, .block::after {
+    clear: both;
+}
+
